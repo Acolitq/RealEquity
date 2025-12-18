@@ -63,9 +63,10 @@ export default function PropertiesScreen() {
       <ScrollView
         horizontal
         showsHorizontalScrollIndicator={false}
-        className="px-4 mb-4"
+        className="px-4 mb-4 max-h-12"
+        contentContainerStyle={{ alignItems: 'center' }}
       >
-        <View className="flex-row gap-2">
+        <View className="flex-row gap-2 items-center">
           {propertyTypes.map((type) => (
             <TouchableOpacity
               key={type.value}

@@ -4,6 +4,6 @@
 
 expo-env.d.ts
 # @end expo-cli
-.env.example
+.env
 node_modules/
 .expo/

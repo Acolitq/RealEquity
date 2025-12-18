@@ -102,9 +102,10 @@ export default function SearchScreen() {
         <ScrollView
           horizontal
           showsHorizontalScrollIndicator={false}
-          className="px-4 mb-4"
+          className="px-4 mb-4 max-h-12"
+          contentContainerStyle={{ alignItems: 'center' }}
         >
-          <View className="flex-row gap-2">
+          <View className="flex-row gap-2 items-center">
             <TouchableOpacity
               onPress={() => setSelectedCity(null)}
               className={`flex-row items-center px-3 py-2 rounded-full ${
